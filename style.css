@@ -69,16 +69,15 @@ nav a:hover {
     object-fit: cover;
 }
 
-.tarjeta button {
+.tarjeta a {
     padding: 8px 18px;
-    border: none;
     border-radius: 5px;
     background-color: #38bdf8;
     color: #111827;
     font-weight: bold;
-    cursor: pointer;
+    text-decoration: none;
 }
-.tarjeta button:hover {
+.tarjeta a:hover {
     background-color: #0ea5e9;
     transform: scale(1.05);
 }
